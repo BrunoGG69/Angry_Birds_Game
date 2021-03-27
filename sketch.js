@@ -147,7 +147,7 @@ async function getTime()
     var response = await fetch ("https://worldtimeapi.org/api/timezone/Asia/Kolkata.json");
     var responseJSON = await response.json();
     var dt = responseJSON.datetime;
-    var hour = dt.slice(11,13);
+    var hour = dt.slice(11,15);
 
     if (hour > 06 && hour < 18) {
         bg = "sprites/bg.png";
