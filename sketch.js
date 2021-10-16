@@ -19,7 +19,7 @@ var birds = []
 var fly_Sound, select_Sound, snort_Sound;
 
 function preload() {
-    backgroundImg = loadImage("sprites/bg.png");
+    backgroundImg = loadImage("bg.png");
 
     fly_Sound = loadSound("bird_flying.mp3");
     select_Sound = loadSound("bird_select.mp3");
